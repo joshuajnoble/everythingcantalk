@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<<<<<<< HEAD
 <eagle version="6.5.0">
-=======
-<eagle version="6.4">
->>>>>>> fb2bb737037baa083d2f259d6a0150e704020c67
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5186,173 +5182,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </deviceset>
 </devicesets>
 </library>
-<<<<<<< HEAD
 <library name="skyworks">
 <packages>
 <package name="SKY13354-368LF">
-=======
-<library name="SparkFun-RF">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find things that send or receive RF- GPS, cellular modules, Bluetooth, WiFi, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="ANTENNA-CHIP2">
-<wire x1="-0.889" y1="0.508" x2="-0.889" y2="-0.508" width="0.2032" layer="21"/>
-<wire x1="0.889" y1="0.508" x2="0.889" y2="-0.508" width="0.2032" layer="21"/>
-<smd name="FEED" x="0" y="1.25" dx="1.7" dy="1" layer="1"/>
-<smd name="P$2" x="0" y="-1.25" dx="1.7" dy="1" layer="1"/>
-</package>
-<package name="ANTENNA-CHIP3">
-<wire x1="-1" y1="3.4" x2="-1" y2="2" width="0.2032" layer="21"/>
-<wire x1="-1" y1="2" x2="-1" y2="-3.4" width="0.2032" layer="21"/>
-<wire x1="1" y1="3.4" x2="1" y2="2" width="0.2032" layer="21"/>
-<wire x1="1" y1="2" x2="1" y2="-3.4" width="0.2032" layer="21"/>
-<wire x1="1" y1="2" x2="-1" y2="2" width="0.2032" layer="21"/>
-<smd name="FEED" x="0" y="4.5" dx="1.8" dy="1.5" layer="1"/>
-<smd name="NC" x="0" y="-4.5" dx="1.8" dy="1.5" layer="1"/>
-</package>
-<package name="ANTENNA-CHIP4">
-<wire x1="-4" y1="1" x2="-4" y2="-1" width="0.127" layer="51"/>
-<wire x1="-4" y1="-1" x2="4" y2="-1" width="0.127" layer="51"/>
-<wire x1="4" y1="-1" x2="4" y2="1" width="0.127" layer="51"/>
-<wire x1="4" y1="1" x2="-4" y2="1" width="0.127" layer="51"/>
-<wire x1="-3" y1="1" x2="3" y2="1" width="0.2032" layer="21"/>
-<wire x1="3" y1="-1" x2="-3" y2="-1" width="0.2032" layer="21"/>
-<circle x="-3" y="0.6" radius="0.1414" width="0.127" layer="21"/>
-<smd name="SIG" x="-4" y="0" dx="1" dy="2" layer="1"/>
-<smd name="NC" x="4" y="0" dx="1" dy="2" layer="1"/>
-<text x="-1.651" y="-0.254" size="0.6096" layer="51">152111</text>
-<text x="-4" y="-2" size="0.4064" layer="27">&gt;VALUE</text>
-<text x="-3.99" y="1.59" size="0.4064" layer="25">&gt;NAME</text>
-</package>
-<package name="ANTENNA-CHIP5">
-<wire x1="-2.413" y1="-1.143" x2="2.413" y2="-1.143" width="0.2032" layer="21"/>
-<wire x1="-2.413" y1="1.143" x2="2.413" y2="1.143" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0" x2="2.159" y2="0" width="0.2032" layer="21"/>
-<wire x1="2.159" y1="0" x2="1.778" y2="0.381" width="0.2032" layer="21"/>
-<wire x1="2.159" y1="0" x2="1.778" y2="-0.381" width="0.2032" layer="21"/>
-<smd name="FEED" x="-3.302" y="0" dx="1.016" dy="2.54" layer="1" rot="R180"/>
-<smd name="NC" x="3.302" y="0" dx="1.016" dy="2.54" layer="1" rot="R180"/>
-<text x="0.508" y="0.127" size="0.8128" layer="51">AF</text>
-<text x="-2.54" y="0.381" size="0.4064" layer="25">&gt;Name</text>
-<text x="-2.54" y="-0.762" size="0.4064" layer="27">&gt;Value</text>
-</package>
-<package name="ANTENNA-CHIP6">
-<description>Footprint for Part#1575AT43A40</description>
-<wire x1="-2.7" y1="1" x2="2.7" y2="1" width="0.127" layer="21"/>
-<wire x1="-2.7" y1="-1" x2="2.7" y2="-1" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="0.3" x2="-2.6" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="-0.3" x2="-1.6" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-0.3" x2="-1.6" y2="0.3" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="0.3" x2="-2.6" y2="0.3" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="1" x2="3.5" y2="1" width="0.127" layer="51"/>
-<wire x1="3.5" y1="1" x2="3.5" y2="-1" width="0.127" layer="51"/>
-<wire x1="3.5" y1="-1" x2="-3.5" y2="-1" width="0.127" layer="51"/>
-<wire x1="-3.5" y1="-1" x2="-3.5" y2="1" width="0.127" layer="51"/>
-<smd name="NC" x="3.4" y="0" dx="2" dy="0.75" layer="1" rot="R90"/>
-<smd name="1" x="-3.4" y="0" dx="2" dy="0.75" layer="1" rot="R90"/>
-<text x="-3.81" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.7" y="-1.3" size="0.4064" layer="27" rot="R180">&gt;VALUE</text>
-</package>
-<package name="ANTENNA-CHIP_2500AT44M0400">
-<smd name="FEED" x="-4" y="0" dx="1" dy="1.5" layer="1"/>
-<smd name="NC" x="4" y="0" dx="1" dy="1.5" layer="1"/>
-<wire x1="-4" y1="0.5" x2="-2.5" y2="0.5" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="0.5" x2="4" y2="0.5" width="0.127" layer="51"/>
-<wire x1="4" y1="0.5" x2="4" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="4" y1="-0.5" x2="-2.5" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="-0.5" x2="-4" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="-4" y1="-0.5" x2="-4" y2="0.5" width="0.127" layer="51"/>
-<wire x1="-3.1" y1="0.5" x2="-2.5" y2="0.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="0.5" x2="3.1" y2="0.5" width="0.2032" layer="21"/>
-<wire x1="3.1" y1="-0.5" x2="-2.5" y2="-0.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="-0.5" x2="-3.1" y2="-0.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="0.5" x2="-2.5" y2="-0.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="0.5" x2="-2.5" y2="-0.5" width="0.127" layer="51"/>
-<text x="-3.302" y="1.016" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-3.302" y="-1.524" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="ANTENNA2">
-<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<text x="1.27" y="0" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.27" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="SIGNAL" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ANTENNA2">
-<description>&lt;b&gt;Chip antenna&lt;/b&gt;&lt;p&gt;
-Single endded antenna. Common with smaller chip antennas. CHIP4 package is the GPS Chip Antenna &lt;b&gt;SKU:&lt;/b&gt; GPS-08418. CHIP5 package is 2.4GHz chip antenna &lt;b&gt;SKU:&lt;/b&gt; WRL-00144.</description>
-<gates>
-<gate name="G$1" symbol="ANTENNA2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD" package="ANTENNA-CHIP2">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD2" package="ANTENNA-CHIP3">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD3" package="ANTENNA-CHIP4">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIG"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD5" package="ANTENNA-CHIP5">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD6" package="ANTENNA-CHIP6">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="2500AT44M0400" package="ANTENNA-CHIP_2500AT44M0400">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="skyworks">
-<packages>
-<package name="SKY13354-368LF">
-<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="21"/>
->>>>>>> fb2bb737037baa083d2f259d6a0150e704020c67
 <smd name="RF1A" x="-0.4" y="0.9" dx="0.4064" dy="0.2032" layer="1" rot="R90"/>
 <smd name="V2" x="0" y="0.9" dx="0.4064" dy="0.2032" layer="1" rot="R90"/>
 <smd name="N/C4" x="0.4" y="0.9" dx="0.4064" dy="0.2032" layer="1" rot="R90"/>
@@ -5365,11 +5197,8 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <smd name="RFCA" x="0.9" y="0.4" dx="0.4064" dy="0.2032" layer="1"/>
 <smd name="N/C3" x="0.9" y="0" dx="0.4064" dy="0.2032" layer="1"/>
 <smd name="RFCB" x="0.9" y="-0.4" dx="0.4064" dy="0.2032" layer="1"/>
-<<<<<<< HEAD
 <rectangle x1="-0.5" y1="-0.5" x2="0.5" y2="0.5" layer="1"/>
 <rectangle x1="-0.5" y1="-0.5" x2="0.5" y2="0.5" layer="29"/>
-=======
->>>>>>> fb2bb737037baa083d2f259d6a0150e704020c67
 </package>
 </packages>
 <symbols>
@@ -5821,7 +5650,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </deviceset>
 </devicesets>
 </library>
-<<<<<<< HEAD
 <library name="antenna">
 <description>two yageo antennas for 433 and 915</description>
 <packages>
@@ -5889,8 +5717,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </deviceset>
 </devicesets>
 </library>
-=======
->>>>>>> fb2bb737037baa083d2f259d6a0150e704020c67
 </libraries>
 <attributes>
 </attributes>
@@ -5918,7 +5744,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C1" library="adafruit" deviceset="C-US" device="C0603" value="10uf"/>
 <part name="U1" library="Texas Instruments_By_element14_Batch_1" deviceset="CC1101RTK" device=""/>
-<<<<<<< HEAD
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="0402" value="22nH"/>
 <part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="0402" value="27 nH"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="8.2 pF"/>
@@ -5941,32 +5766,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="L9" library="SparkFun-Passives" deviceset="INDUCTOR" device="0402" value="12 nH"/>
 <part name="L10" library="SparkFun-Passives" deviceset="INDUCTOR" device="0402" value="12 nH"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="1.0 pF"/>
-=======
-<part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805"/>
-<part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="L3" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="L4" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="L5" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805"/>
-<part name="L6" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805"/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="L7" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805"/>
-<part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="L8" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805"/>
-<part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="L9" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805"/>
-<part name="L10" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805"/>
-<part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="U$3" library="SparkFun-RF" deviceset="ANTENNA2" device="SMD"/>
-<part name="U$4" library="SparkFun-RF" deviceset="ANTENNA2" device="SMD"/>
->>>>>>> fb2bb737037baa083d2f259d6a0150e704020c67
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -5975,7 +5774,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$5" library="skyworks" deviceset="SKY13354-368LF" device=""/>
-<<<<<<< HEAD
 <part name="C15" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="27 pF"/>
 <part name="C16" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="27 pF"/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -5989,19 +5787,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="5X3" value="26 mHz"/>
 <part name="U$6" library="antenna" deviceset="ANT1204F002R0433A" device=""/>
 <part name="U$3" library="antenna" deviceset="ANT-868-JJB-ST" device=""/>
-=======
-<part name="C15" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="C16" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C17" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
-<part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="5X3"/>
->>>>>>> fb2bb737037baa083d2f259d6a0150e704020c67
 </parts>
 <sheets>
 <sheet>
@@ -6049,11 +5834,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <instance part="L9" gate="G$1" x="83.82" y="119.38" rot="R90"/>
 <instance part="L10" gate="G$1" x="83.82" y="109.22" rot="R90"/>
 <instance part="C10" gate="G$1" x="91.44" y="111.76"/>
-<<<<<<< HEAD
-=======
-<instance part="U$3" gate="G$1" x="139.7" y="165.1"/>
-<instance part="U$4" gate="G$1" x="149.86" y="121.92"/>
->>>>>>> fb2bb737037baa083d2f259d6a0150e704020c67
 <instance part="GND3" gate="1" x="96.52" y="86.36"/>
 <instance part="GND6" gate="1" x="86.36" y="132.08"/>
 <instance part="GND8" gate="1" x="116.84" y="149.86"/>
@@ -6073,11 +5853,8 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <instance part="SUPPLY5" gate="G$1" x="30.48" y="109.22"/>
 <instance part="GND18" gate="1" x="33.02" y="134.62" rot="R90"/>
 <instance part="Y1" gate="G$1" x="-48.26" y="104.14"/>
-<<<<<<< HEAD
 <instance part="U$6" gate="G$1" x="149.86" y="157.48"/>
 <instance part="U$3" gate="G$1" x="157.48" y="116.84"/>
-=======
->>>>>>> fb2bb737037baa083d2f259d6a0150e704020c67
 </instances>
 <busses>
 </busses>
@@ -6221,15 +5998,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="C17" gate="G$1" pin="1"/>
-<<<<<<< HEAD
-=======
-<pinref part="C17" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="127" x2="50.8" y2="127" width="0.1524" layer="91"/>
-<junction x="43.18" y="127"/>
-<junction x="50.8" y="127"/>
-<pinref part="U1" gate="A" pin="DCOUPL"/>
-<wire x1="22.86" y1="127" x2="43.18" y2="127" width="0.1524" layer="91"/>
->>>>>>> fb2bb737037baa083d2f259d6a0150e704020c67
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -6460,25 +6228,11 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <junction x="111.76" y="114.3"/>
 </segment>
 </net>
-<<<<<<< HEAD
 <net name="N$23" class="0">
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="114.3" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="PIN0"/>
-=======
-<net name="N$22" class="0">
-<segment>
-<pinref part="C5" gate="G$1" pin="2"/>
-<pinref part="U$3" gate="G$1" pin="SIGNAL"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="C11" gate="G$1" pin="2"/>
-<pinref part="U$4" gate="G$1" pin="SIGNAL"/>
-<wire x1="149.86" y1="116.84" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
->>>>>>> fb2bb737037baa083d2f259d6a0150e704020c67
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -6561,7 +6315,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="-40.64" y1="121.92" x2="-27.94" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<<<<<<< HEAD
 <net name="N$34" class="0">
 <segment>
 <pinref part="C17" gate="G$1" pin="2"/>
@@ -6576,8 +6329,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="144.78" y1="160.02" x2="139.7" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-=======
->>>>>>> fb2bb737037baa083d2f259d6a0150e704020c67
 </nets>
 </sheet>
 </sheets>

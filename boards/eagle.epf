@@ -363,6 +363,7 @@ UsedLibrary="/Users/joshua.noble/projects/resonate/skyworks.lbr"
 UsedLibrary="/Users/joshua.noble/projects/resonate/firefly.lbr"
 
 [Win_1]
+<<<<<<< HEAD
 Type="Board Editor"
 Loc="360 248 959 647"
 State=0
@@ -409,6 +410,8 @@ PadsSameType=0
 Layer=16
 
 [Win_2]
+=======
+>>>>>>> fb2bb737037baa083d2f259d6a0150e704020c67
 Type="Control Panel"
 Loc="28 22 1317 818"
 State=1
@@ -417,4 +420,7 @@ Number=0
 [Desktop]
 Screen="1440 900"
 Window="Win_1"
+<<<<<<< HEAD
 Window="Win_2"
+=======
+>>>>>>> fb2bb737037baa083d2f259d6a0150e704020c67
